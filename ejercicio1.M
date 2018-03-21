@@ -1,3 +1,5 @@
+ % Al tener un cero dentro del rut, entra en conflicto la divición, al cambiar la variable C por
+ % otro número, funciona correctamente.
  A=1; B=9; C=0; D=4; E=1; F=7; G=3; H=2; 
  t=0 : 0.3 :30; v= exp(-((B+A)/(2*C*(D+E)))*t).*sin(t);
  subplot 121; plot(t,v), title('PLOT');
